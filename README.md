@@ -8,6 +8,12 @@ The list of emoji can be found [here (UnicodeのEmojiの一覧)](https://ja.wiki
 ## Screenshot
 ![Demo image](./demo/demo-image.png)
 
+## Install
+
+```sh
+cargo install --git https://github.com/shinshin86/emors.git
+```
+
 ## Usage
 
 ```sh

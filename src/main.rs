@@ -46,7 +46,7 @@ fn emoji_select_display(name: String, emoji_list: Vec<Emoji>) {
             println!("$ emors all")
         }
         Some(emoji) => {
-            println!("{}", emoji.unicode.to_string());
+            println!("{}", emoji.unicode);
         }
     }
 }

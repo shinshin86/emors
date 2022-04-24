@@ -30,6 +30,8 @@ fn emoji_random_display(num: usize, emoji_list: Vec<Emoji>) {
         let rand_num = get_rand_num(emoji_list.len());
         print!("{}", emoji_list[rand_num].unicode);
     }
+
+    // Needed to end a sentence with a line break
     println!();
 }
 
